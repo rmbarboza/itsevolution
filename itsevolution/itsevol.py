@@ -1,6 +1,6 @@
 import random
-from ItsEvolution.common.population import Human,PopulationStats
-from ItsEvolution.common.utils import Popcontrol,startpops
+from itsevolution.common.population import Human,PopulationStats
+from itsevolution.common.utils import Popcontrol,startpops
 
 YEARS = 10
 INITIAL_POP = 100
