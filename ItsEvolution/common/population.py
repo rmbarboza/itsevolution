@@ -38,9 +38,9 @@ class Human:
         if self.age > 199:
             return 1
         if self.sex == 0:
-            return r <= pops[int(round(self.age))].m
+            return r <= pops[int(round(self.age))].deathMale
         else:
-            return r <= pops[int(round(self.age))].f
+            return r <= pops[int(round(self.age))].deathFemale
 
     def mayIFuck(self):
         if self.sex == 1:
